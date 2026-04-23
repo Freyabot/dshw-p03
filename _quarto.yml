@@ -1,0 +1,29 @@
+﻿project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "中国A股上市公司资本结构影响因素研究"
+  subtitle: "2010-2025年面板数据证据"
+  author: "吴思雨"
+  date: today
+  date-format: "YYYY-MM-DD"
+  chapters:
+    - index.qmd
+    - chapters/01-introduction-hypotheses.qmd
+    - chapters/02-data-variables.qmd
+    - chapters/03-empirical-results.qmd
+    - chapters/04-robustness-checks.qmd
+    - chapters/05-conclusion.qmd
+
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: false
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

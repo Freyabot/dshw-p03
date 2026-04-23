@@ -1,0 +1,10 @@
+data/raw/
+data/clean/*.dta
+*.log
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+output/
+
+/.quarto/
+**/*.quarto_ipynb
