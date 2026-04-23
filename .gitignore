@@ -5,6 +5,8 @@ data/clean/*.dta
 .DS_Store
 __pycache__/
 output/
+!docs/output/
+!docs/output/figures/
 
 /.quarto/
 **/*.quarto_ipynb
